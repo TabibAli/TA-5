@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+nav{
+    width: 100%;
+    color: #212529;
+    font-size: 16px;
+    background-color: #2c3e50;
+    padding: 16px 0px;
+    position: fixed;
+    z-index: 1;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+   
+}
+.container{
+    max-width: 100%;
+    margin: 0px 99.6px;
+    padding: 0px 12px;
+    color: white;
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-a{
+    font-size: 20px;
+    margin: 0px 16px 0px 0px;
+    padding: 5px 0px;
+    text-decoration: none;
+    color: white;
+}
+.nav-ul{
+    display: flex;
+    list-style: none;
+}
+.nav-il{
+    padding: 16px;
+}
+header{
+    width: 100%;
+    color: white;
+    background-color: #1abc9c;
+    padding: 200px 0px 96px;
+
+}
+.headimg{
+    width: 240px;
+    height: 254.4px;
+    margin: 0px 0px 48px;
+}
+.hcon{
+    flex-direction: column !important;
+}
+h1{
+    font-size: 64px;
+    font-family: "Montserrat", sans-serif;
+}
+.headdiv{
+    width: 100%;
+    height: 48px;
+    margin: 20px 0px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headp{
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+}
+.headdiv1{
+    width: 100%;
+    max-width: 7rem;
+    background-color: white;
+    height: 4px;
+    border-radius: 16px;
+}
+.hd1{
+    margin-right: 16px;
+}
+.hd2{
+    margin-left: 16px;
+}
+.fa-solid{
+    font-size: 32px;
+}
+.portfolio{
+    color: #212529;
+    padding: 96px 0px;
+}
+.page-h2{
+    font-size: 48px;
+    color: #2c3e50;
+    line-height: 40px;
+    font-family: "Montserrat", sans-serif;
+}
+.pd1{
+    background-color: #212529;
+    margin-right: 16px;
+}
+.pd2{
+    background-color: #212529;
+    margin-left: 16px;
+}
+.black{
+    color: #2c3e50;
+} 
+.portpage{
+    width: 1320px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: o;
+}
+.page{
+    width: 400px;
+    height: 288.89px;
+    margin: 0 16px 48px;
+    position: relative;
+}
+.page::after{
+    content: "+";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #1abc9ce6;
+    opacity: 0;
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    line-height: 288px;
+    left: 0px;
+    transition: 0.5s;
+    border-radius: 8px;
+}
+.page:hover::after{
+    opacity: 1;
+    border-radius: 8px;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+.about{
+    padding: 96px 0px;
+    background-color: #1abc9c;
+    color: white;
+}
+.ab-h2{
+    height: 40px;
+    margin: opx 0px 8px;
+    font-size: 48px;
+    font-family: "Montserrat", sans-serif;
+
+}
+.pdiv{
+    margin:0px 12px;
+    display: flex;
+}
+.p1{
+    width: 440px;
+    height: 166px;
+    margin: 0px 0px 0px 220px;
+    padding: 0px 12px;
+    
+}
+.p2{
+    margin: 0px 220px 0px 0px;
+    padding: 0px 12px;
+    width: 440px;
+    height: 166px;
+}
+.p{
+    margin: 0px 0px 16px;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+
+}
+.free{
+    width: 100%;
+    height: 65.2px;
+    margin: 24px 0px 0px;
+    text-align: center;
+}
+.freea{
+    width: 231.7px;
+    font-family: "Lato", sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 16px 28px;
+    text-decoration: none;
+    border: 2px solid white;
+    vertical-align: middle;
+    border-radius: 8px;
+    transition: 0.15s;
+}
+.freea:hover{
+    background-color: white;
+    color: #212529;
+    transition: 0.15s;
+}
+.free-i{
+    font-size: 20px;
+}
+.forms{
+    display: block;
+    box-sizing: border-box;
+    padding: 96px 0px;
+}
+.in{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #212529;
+    font-size: 16px;
+    outline: none;
+    padding: 20px 0px;
+    text-align: left;
+}
+.a{
+    height: 88px;
+    position: relative;
+    text-align: left;
+    margin-bottom: 30px;
+    color: #212529;
+}
+label {
+    position: absolute;
+    font-size: 24px;
+    left: 0;
+    transition: 0.5s;
+    text-align: left;
+    color: #6c757d;
+}
+.a2{
+    margin-bottom: 70px;
+}
+input:focus+label{
+    transition: 0.5s;
+    font-size: 12px !important;  
+}
+form{
+    width: 746px;
+}
+textarea{
+    width: 100%;
+    height: 80px;
+    padding: 20px 0;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid rgb(44 62 80);
+    outline: none;
+}
+.send{
+    width: 100px;
+    height: 70px;
+    font-size: 20px;
+    color: white;
+    background-color: #1abc9cbe;
+    border: none;
+    border-radius: 15px;
+    margin-right: 740px;
+    text-align: center;
+
+}
+footer{
+    color: white;
+    padding: 80px 0px;
+    background-color: #2c3e50;
+    display: flex;
+    margin: auto;
+    
+}
+.footerhead{
+    width: 439.99px;
+    height: 112.8px;
+    padding: 0px 12px;
+    margin: auto;
+}
+.footerhead>h4{
+    width: 415.99px;
+    height: 28.8px;
+    padding: 0px 0px 24px;
+    font-size: 24px;
+    line-height: 19.2px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+
+}
+.footerhead>p{
+    width: 415.99px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 20px;
+    font-family: "Lato", sans-serif;
+}
+.foota{
+    width: 52px;
+    height: 52px;
+    border: 2px solid white;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 52px;
+    color: white;
+    margin: 0px 4px;
+    margin-top: 16px;
+}
+.star{
+    text-decoration: none;
+    color: #1abc9c;
+}
+.end{
+    height: 72.2px;
+    background-color: #1a252f;
+    padding: 24px 0px;
+}
+small{
+    margin: auto;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Lato", sans-serif;
+}
